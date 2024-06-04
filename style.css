@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -18px;
+    width: 300px;
+}
+
+.dashboard-content {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+    margin-left: -155px;
+    width: 1400px;
+}
+
+.top-header {
+    background-color: #343a40;
+    padding: 10px 20px;
+    color: white;
+    width: 1400px;
+    margin-left: -165px;
+    position: fixed;
+}
+
+.card {
+    padding: 10px;
+    margin: 5px;
+    cursor: move;
+}
